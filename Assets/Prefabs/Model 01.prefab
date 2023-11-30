@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 3582744552823681567}
   - component: {fileID: 6022763325326494354}
   - component: {fileID: 7937013661746589070}
-  - component: {fileID: 8612814253690735126}
+  - component: {fileID: 4990764973233996346}
   m_Layer: 0
   m_Name: Podium
   m_TagString: Untagged
@@ -189,8 +189,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8612814253690735126
-CapsuleCollider:
+--- !u!65 &4990764973233996346
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -207,10 +207,8 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2949616751295503915
 GameObject:
@@ -297,6 +295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1260231232570928975}
   - component: {fileID: 686665959314126651}
+  - component: {fileID: 9185578595632076653}
   m_Layer: 0
   m_Name: Model 01
   m_TagString: Untagged
@@ -337,6 +336,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modelNameText: {fileID: 7981824736201078130}
+--- !u!65 &9185578595632076653
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373780459984467185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4395895982231283247
 GameObject:
   m_ObjectHideFlags: 0

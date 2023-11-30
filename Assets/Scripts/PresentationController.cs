@@ -1,18 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PresentationController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private CinemachineVirtualCamera modelCamera;
 
-    // Update is called once per frame
+    [SerializeField] private int camPriorityHigh;
+    [SerializeField] private int camPriorityStandart;
+
     void Update()
     {
-        
+        if (Input.GetButtonDown(GlobalStringVars.CLICK))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit))
+            {
+                modelCamera = hit.collider.gameObject.GetComponentInChildren<CinemachineVirtualCamera>();
+                modelCamera.Priority = camPriorityHigh;
+            }
+        }
+    }
+
+    public void GeneralView()
+    {
+        modelCamera.Priority = camPriorityStandart;
     }
 }
