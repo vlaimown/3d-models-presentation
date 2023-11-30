@@ -296,6 +296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1260231232570928975}
+  - component: {fileID: 686665959314126651}
   m_Layer: 0
   m_Name: Model 01
   m_TagString: Untagged
@@ -323,6 +324,19 @@ Transform:
   - {fileID: 422765964799868062}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &686665959314126651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373780459984467185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c80b8b0b768264c848ec9ab33d9b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelNameText: {fileID: 7981824736201078130}
 --- !u!1 &4395895982231283247
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +976,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 8}
-  m_SizeDelta: {x: 20, y: 5}
+  m_SizeDelta: {x: 10, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &5974390185838218021
 MeshRenderer:
@@ -1053,8 +1067,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
