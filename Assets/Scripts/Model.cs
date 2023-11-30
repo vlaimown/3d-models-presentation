@@ -3,15 +3,21 @@ using TMPro;
 
 public class Model : MonoBehaviour
 {
-    [SerializeField] private TMP_Text modelNameText;
+    [SerializeField] private TMP_Text generalModelNameText; 
+    [SerializeField] private TMP_Text authorModelNameText;
     private string modelName = "";
-    void Start()
+
+    [SerializeField] private Canvas canvas;
+    private void Start()
     {
         modelName = gameObject.name;
-        modelNameText.text = modelName;
+        generalModelNameText.text = modelName;
+        authorModelNameText.text = modelName;
     }
-    void Update()
+
+    public void SwitchActiveAuthorInfo()
     {
-        
+        canvas.gameObject.SetActive(!canvas.gameObject.activeSelf);
+        generalModelNameText.gameObject.SetActive(!generalModelNameText.gameObject.activeSelf);
     }
 }

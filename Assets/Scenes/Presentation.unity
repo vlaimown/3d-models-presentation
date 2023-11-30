@@ -933,7 +933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &972358426
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1234,7 +1234,7 @@ GameObject:
   - component: {fileID: 1282915986}
   - component: {fileID: 1282915985}
   m_Layer: 0
-  m_Name: Virtual Camera
+  m_Name: General Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1324,9 +1324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ad7d1cce366284a9747c352778468d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  generalCamera: {fileID: 0}
-  camPriorityHigh: 12
+  camPriorityHigh: 13
   camPriorityStandart: 10
+  generalViewBtn: {fileID: 972358427}
 --- !u!4 &1308720020
 Transform:
   m_ObjectHideFlags: 0
@@ -2316,10 +2316,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 963194228}
+  - {fileID: 1282915986}
   - {fileID: 83450263}
   - {fileID: 1422046221}
   - {fileID: 1866215198}
   - {fileID: 1659449984}
-  - {fileID: 1282915986}
   - {fileID: 1357343961}
   - {fileID: 1308720020}
