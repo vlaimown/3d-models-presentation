@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -382,7 +382,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &349019992 stripped
 Transform:
@@ -538,7 +541,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &883568684 stripped
 Transform:
@@ -727,7 +733,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &1044780393 stripped
 Transform:
@@ -1039,7 +1048,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &1362670436 stripped
 Transform:
@@ -1471,7 +1483,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &1813222819 stripped
 Transform:
@@ -1572,7 +1587,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &1904918354 stripped
 Transform:
@@ -1634,7 +1652,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!4 &1927473168 stripped
 Transform:
@@ -1696,7 +1717,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7603731886592827689, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8626f2e4fdac5f14ea7688808260b342, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
