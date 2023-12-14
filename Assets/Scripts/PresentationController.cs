@@ -32,16 +32,19 @@ public class PresentationController : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                selectedModel = hit.collider.GetComponent<Model>();
+                if (hit.collider.GetComponent<Model>() != null)
+                {
+                    selectedModel = hit.collider.GetComponent<Model>();
 
-                modelCamera = hit.collider.gameObject.GetComponentInChildren<CinemachineVirtualCamera>();
-                modelCamera.Priority = camPriorityHigh;
+                    modelCamera = hit.collider.gameObject.GetComponentInChildren<CinemachineVirtualCamera>();
+                    modelCamera.Priority = camPriorityHigh;
 
-                generalViewBtn.gameObject.SetActive(true);
+                    generalViewBtn.gameObject.SetActive(true);
 
-                selectedModel.SwitchActiveAuthorInfo();
+                    selectedModel.SwitchActiveAuthorInfo();
 
-                Debug.Log(selectedModel);
+                    Debug.Log(selectedModel);
+                }
             }
         }
     }
